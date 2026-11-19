@@ -1,0 +1,19 @@
+
+[project]
+name = "padho-ai-engineer"
+version = "0.1.0"
+description = "My AI Engineering learning journey"
+requires-python = ">=3.13"
+dependencies = [
+    "groq>=1.5.0",
+    "pydantic>=2.14.3",
+    "python-dotenv>=1.2.2",
+]
+
+[tool.uv.workspace]
+members = [
+    "week1/day4",
+]
+
+
+

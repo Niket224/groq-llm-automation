@@ -1,0 +1,44 @@
+
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Environment variables and API keys
+.env
+
+.env.*
+!.env.example
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# IDE settings
+.vscode/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Testing and coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Temporary files
+*.log
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+**/.venv/
+**/__pycache__/
+*.py[cod]
+week1/day5/resumes/*
+!week1/day5/resumes/.gitkeep
